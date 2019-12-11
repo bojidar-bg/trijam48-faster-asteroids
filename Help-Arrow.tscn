@@ -1,0 +1,7 @@
+[gd_scene format=2]
+
+[node name="Arrow" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2( 0, -9.19514 )
+polygon = PoolVector2Array( 0, -22.023, -34.1071, 3.05603, -7.67261, 1.24854, -18.7435, 39.4317, 0, 33.5874, 18.743, 39.432, 7.673, 1.249, 34.107, 3.056 )

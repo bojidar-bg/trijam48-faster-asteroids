@@ -1,0 +1,20 @@
+[gd_scene format=2]
+
+[node name="Mouse" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PoolVector2Array( -0.442673, -52.2982, -0.84874, -11.6507, -38.901, -1.13622, -37.4961, -29.0268, -15.8063, -53.4279 )
+
+[node name="Line2D" type="Line2D" parent="."]
+points = PoolVector2Array( 0, -53.203, -16.5544, -53.2032, -35.8936, -32.7264, -39.3064, -3.14877, -36.4623, 25.86, -32.4807, 46.9056, -15.9856, 57.144, 1.078, 57.144 )
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="Line2D2" type="Line2D" parent="."]
+rotation = -3.14159
+scale = Vector2( 1, -1 )
+points = PoolVector2Array( 0, -53.203, -16.5544, -53.2032, -35.8936, -32.7264, -39.3064, -3.14877, -36.4623, 25.86, -32.4807, 46.9056, -15.9856, 57.144, 1.078, 57.144 )
+default_color = Color( 1, 1, 1, 1 )
+
+[node name="Line2D3" type="Line2D" parent="."]
+points = PoolVector2Array( 0, -52.066, 0.461075, -0.333008 )
+default_color = Color( 1, 1, 1, 1 )
